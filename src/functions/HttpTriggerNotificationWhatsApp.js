@@ -22,7 +22,7 @@ app.http('HttpTriggerNotificationWhatsApp', {
                     "type": "text",
                     "text": { // the text object
                         "preview_url": false,
-                        "body": `Se encuentra una conversacion pendiente de intervencion humana de ${jsonRes.object}. URL: ${jsonRes.URL}`,
+                        "body": jsonRes.message
                     },
                 }
                 
