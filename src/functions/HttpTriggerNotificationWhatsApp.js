@@ -18,7 +18,7 @@ app.http('HttpTriggerNotificationWhatsApp', {
                 const dataResponse = {
                     "messaging_product": "whatsapp",
                     "recipient_type": "individual",
-                    "to": '584143913971',
+                    "to": '584242816485',
                     "type": "text",
                     "text": { // the text object
                         "preview_url": false,
