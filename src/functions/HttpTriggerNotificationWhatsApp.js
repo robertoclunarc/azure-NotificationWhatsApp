@@ -29,7 +29,7 @@ app.http('HttpTriggerNotificationWhatsApp', {
 
                 const enviarMensaje = await axios.post(URLWhatsapp, dataResponse, {headers: {
                     "Content-Type": "application/json",
-                    Authorization: `Bearer EABfh2tc8g8IBO7Cc7AuLrL5H5WyQ9uhRBowJEHk0350R7V3EZCEVHLJQ0gSKLH67xXIoeZCWzbPi55EXddAQHpUt23JCC1kRmZCGbZAKsmcPcac4igrUiBZAQDUCAvt0FNZBI28E3HdFmaO0EEXUeDdL0oRAHAXnnu9r5CH0wkYqb4UC2Lbbj4xPzWFgxOZARZCH3eFw053HphRQZATMKzJEZD`,
+                    Authorization: `Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`,
                   }});                     
                   return {
                     status: 200,
